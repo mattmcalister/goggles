@@ -4,6 +4,6 @@
 ! author: Malkovich
 ! avatar: #000000
 
-$discard
 /malkovich/$boost=4
 *malkovich*$boost=3
+-malkovich$downrank=4
