@@ -1,0 +1,9 @@
+! name: Malkovich
+! description: Malkovich malkovich malkovich malkovich malkovich malkovich malkovich malkovich
+! public: false
+! author: Malkovich
+! avatar: #000000
+
+$discard
+/malkovich/$boost=4
+*malkovich*$boost=3
