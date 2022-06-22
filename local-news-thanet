@@ -1,0 +1,10 @@
+! name: Thanet Local News
+! description: News from sources in the Thanet area including Ramsgate, Broadstairs and Margate
+! public: false
+! author: Matt Mc
+
+$boost=3,site=kentonline.co.uk
+/thanet/$boost=3
+$boost=3,site=theisleofthanetnews.com
+$boost=3,site=kentlive.news
+/all-about/ramsgate$boost=3
