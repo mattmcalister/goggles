@@ -7,8 +7,8 @@
 $discard
 
 ! include the local publishers
-$boost=3,site=kentonline.co.uk
-/thanet/$boost=3
-$boost=3,site=theisleofthanetnews.com
-$boost=3,site=kentlive.news
-/all-about/ramsgate$boost=3
+/thanet/$boost,site=kentonline.co.uk
+$boost,site=theisleofthanetnews.com
+/all-about/ramsgate$boost,site=kentlive.news
+/all-about/broadstairs$boost,site=kentlive.news
+/all-about/margate$boost,site=kentlive.news
