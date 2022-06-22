@@ -3,6 +3,10 @@
 ! public: false
 ! author: Matt Mc
 
+! exclude most of the Internet
+$discard
+
+! include the local publishers
 $boost=3,site=kentonline.co.uk
 /thanet/$boost=3
 $boost=3,site=theisleofthanetnews.com
