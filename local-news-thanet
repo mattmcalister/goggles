@@ -1,7 +1,8 @@
 ! name: Thanet Local News
 ! description: News from sources in the Thanet area including Ramsgate, Broadstairs and Margate
-! public: false
+! public: true
 ! author: Matt Mc
+! avatar: #000080
 
 ! exclude most of the Internet
 $discard
