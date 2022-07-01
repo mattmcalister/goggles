@@ -1,0 +1,56 @@
+! name: Top News Sources
+! description: Leading news publishers in the US and UK
+! public: false
+! author: Matt Mc
+! avatar: #000080
+
+! exclude most of the Internet
+$discard
+
+! include the local publishers
+$boost=1,site=cnn.com
+$boost=1,site=nytimes.com
+$boost=1,site=bbc.co.uk
+$boost=1,site=foxnews.com
+$boost=1,site=theguardian.com
+$boost=1,site=washingtonpost.com
+$boost=1,site=nbcnews.com
+$boost=1,site=abcnews.com
+$boost=1,site=dailymail.co.uk
+$boost=1,site=nypost.com
+$boost=1,site=npr.org
+$boost=1,site=cbsnews.com
+$boost=1,site=usatoday.com
+$boost=1,site=wsj.com
+$boost=1,site=time.com
+$boost=1,site=latimes.com
+$boost=1,site=newsweek.com
+$boost=1,site=politico.com
+$boost=1,site=msnbc.com
+$boost=1,site=independent.co.uk
+$boost=1,site=breitbart.com
+$boost=1,site=thehill.com
+$boost=1,site=washingtontimes.com
+$boost=1,site=thedailybeast.com
+$boost=1,site=telegraph.co.uk
+$boost=1,site=rt.com
+$boost=1,site=dailycaller.com
+$boost=1,site=theblaze.com
+$boost=1,site=cbc.ca
+$boost=1,site=aljazeera.com
+$boost=1,site=smh.com.au
+$boost=1,site=axios.com
+$boost=1,site=spiegel.de
+$boost=1,site=abc.net.au
+$boost=1,site=sky.com
+$boost=1,site=bostonglobe.com
+$boost=1,site=euronews.com
+$boost=1,site=ft.com
+$boost=1,site=motherjones.com
+$boost=1,site=csmonitor.com
+$boost=1,site=propublica.org
+$boost=1,site=tnr.com
+$boost=1,site=democracynow.org
+$boost=1,site=foreignpolicy.com
+$boost=1,site=thenation.com
+$boost=1,site=huffingtonpost.com
